@@ -18,12 +18,11 @@ body{
 	border-radius: 0px 0px 20px 20px;
 }
 #content{
-	/*position: absolute;*/
-	/*overflow: hidden;*/
-	/*margin-top: 8em;*/
-	/*padding: 1%;*/
-	/*background-color: blue;*/
-	width: 91.5%;
+	position: absolute;
+	overflow: hidden;
+	margin-top: 10%;
+	padding: 1%;
+	width: 94%;
 }
 #header,#content{
 	display: block;
@@ -43,14 +42,12 @@ body{
 	padding-left: 0em;
 	padding-right: 0em;
 	background-color: lightgrey;
+	width: 45%;
 }
-#search img,#search input{
+#search i,#search input{
 	display: inline-block;
 }
-#search img{
-	width: 10%;
-	height: 20px;
-}
+
 #search input{
 	width: 89%;
 	height: 3em;
@@ -58,6 +55,16 @@ body{
 	border: 2px solid transparent;
 	opacity: 0.6;
 	outline: none;
+	float: right;
+	margin-left: 0%;
+}#search input:hover{
+	opacity: 1;
+}
+#search svg{
+	width: 5%;
+	margin: 2%;
+	margin-top: 2%;
+	margin-right: 1%;
 }
 #heading h1,img{
 	display: inline-block;
