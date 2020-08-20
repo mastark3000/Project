@@ -254,8 +254,8 @@ form a{
 
 
 #footer{
-	bottom: 0;
-	margin-top: 100%;
+	bottom: 0%;
+	margin-top: 100em;
 	height: 10em;
 	background-color: black;
 	color: white;
