@@ -13,13 +13,13 @@
 		form{
 /*			background-color: white;*/
 		    padding: 2em;
-		    width: 80em;
+		    width: 80%;
 		    margin: auto;
 		    
 		}
 		table{
 			color: blue;
-			width: 50em;
+			width: 100%;
 			height: 15em;
 			background-color: white;
 			padding: 2em;
@@ -31,27 +31,28 @@
 			text-align: center;
 			vertical-align: middle;
 		}
-		input,td>svg{
-			display: inline-block;
+		tr td:nth-child(){
+			width: 2em;
 		}
-		input{
+		td>input{
 			height: 3em;
-			width: 51em;
+			width: 15em;
 			outline: none;
+			float: right;
 		}
 		td{
-			width:100em;
-			height:3em
+			width: 50%;
 		}
-		td>svg{
-			
-			
-		}
+		
 		.svg-inline--fa.fa-w-16,.svg-inline--fa.fa-w-20 {
 		    width: 2em;
-	            padding: 2%;
-	            color: white;
-	            background-color: blue;
+			padding: 5%;
+			height: 2.5em;
+			color: blue;
+			background-color: white;
+		}
+		{
+			width: 2em;
 		    height: 2em;
 		    float: left;
 		}
@@ -63,12 +64,12 @@
 		<table>
 			<h2>LOGIN</h2>
 			<tr>
-				<td>Username</td>
-				<td><i class="far fa-users"></i><input type="text" name="email" placeholder="email"></td>
+				<td><i class="far fa-users"></i></td>
+				<td><input type="text" name="email" placeholder="email"></td>
 			</tr>
 			<tr>
-				<td>Password</td>
-				<td><i class="fad fa-key"></i><input type="text" name="pass" placeholder="Password"></td>
+				<td><i class="fad fa-key"></i></td>
+				<td><input type="text" name="pass" placeholder="Password"></td>
 			</tr>
 		</table>
 	</form>
