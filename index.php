@@ -16,9 +16,6 @@
 </style>
 
 
-<!-- <div id="wrapper">
-    your html for your website
-</div> -->
 	<link rel="stylesheet" type="text/css" href="css/d.css">
 	<script type="text/javascript" src="font.js"></script>
 </head>
