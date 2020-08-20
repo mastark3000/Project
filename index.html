@@ -4,9 +4,6 @@
 	<title>ShopPool</title>
 	<link rel="icon" type="image/svg" href="img/monitor.svg">
 	<link rel="stylesheet" type="text/css" href="css/d.css">
-	<script type="text/javascript" src="jquery.min.js"></script>
-	<script type="text/javascript" src="jquery-3.2.1.js"></script>
-	<script type="text/javascript" src="uijquery-ui.js"></script>
 	<script type="text/javascript" src="font.js"></script>
 </head>
 <body>
@@ -42,27 +39,39 @@
 		<div>
 			<form method="GET">
 				<ul>
-					<li><a href="">Type</a></li>
-					<li><a href="">Filter</a></li>
-					<li><a href="">Sort</a></li>
-					<li><a href="">Type</a></li>
+					<li id="n"><!-- <a href=""> -->Type<!-- </a> --><ul id="nest"><li>list</li><li>list</li></ul></li>
+					<li id="n">Filter<ul id="nest"><li>list</li><li>list</li></ul></li>
+					<li id="n">Filter<ul id="nest"><li>list</li><li>list</li></ul></li>
+					<li id="n">Filter<ul id="nest"><li>list</li><li>list</li></ul></li>
 				</ul>
 			</form>
 		</div>
 		
 			<div id="menu">
-								
-		
-		</div>
+				<div id="lm">
+					<div id="mtop">
+						<h2>Menu</h2><hr>
+					</div>
+					<div id="mbot">
+						<ul>
+							<li><a href="">UTU website</a></li>
+							<li><a href="">menu</a></li>
+							<li><a href="">menu</a></li>
+							<li><a href="">menu</a></li>
+							<li><a href="">menu</a></li>
+							<li><a href="">menu</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="rm">
+					<p>contents</p>
+					
+				</div>
+			</div>
 	</div>
-	<script>
-		$(document).ready(funtion(
-		$("#data").hover(function(){
-			window.location.replace("https://www.google.co.in");
-		});
-		));
-	</script>
-
+	<div id="footer">
+		&copy;Reserved by <b>Afzal Mansuri</b>
+	</div>
 	</div>
 </div>
 
