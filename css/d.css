@@ -20,9 +20,9 @@ body{
 #content{
 	position: absolute;
 	overflow: hidden;
-	margin-top: 10%;
+	margin-top: 3%;
 	padding: 1%;
-	width: 94%;
+	width: 96%;
 }
 #header,#content{
 	display: block;
@@ -140,9 +140,8 @@ a:active{
 /*content navbar*/
 
 #menu{
-	width: 100%;
-	/*border: 2px solid blue;*/
-	/*padding: 3% 1%;*/
+	width: 97%;
+	padding: 2%;
 	overflow: visible;
 }
 #menu a{
@@ -150,9 +149,9 @@ a:active{
 	/*margin: 1em 2em;*/
 }
 form{
-	margin-top: 3%;
-	margin-left: 2%;
-	width: 100%;
+	margin-top: 1%;
+	/*margin-left: 2%*/;
+	width: 96%;
 	border-radius: 10px;
 	border: 2px solid grey;
 }
