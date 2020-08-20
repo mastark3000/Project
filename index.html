@@ -3,10 +3,28 @@
 <head>
 	<title>ShopPool</title>
 	<link rel="icon" type="image/svg" href="img/monitor.svg">
+	<style type="text/css">
+    #warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #container { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
+</style>
+
+
+<!-- <div id="wrapper">
+    your html for your website
+</div> -->
 	<link rel="stylesheet" type="text/css" href="css/d.css">
 	<script type="text/javascript" src="font.js"></script>
 </head>
 <body>
+<div id="warning-message">
+    this website is only viewable in landscape mode
+</div>
 <div id="container">
 	<div id="space">
 		<div id="header">
