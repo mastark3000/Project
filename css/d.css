@@ -1,7 +1,8 @@
 body{
 	/*background-color: blue;*/
-	/*background-image: url("img/medal.png");*/
+	/*background-image:url("../img/a.jpg");*/
 	background-size: cover;
+	background-repeat: no-repeat;
 	width: 97vw;
 	height: 100vh;
 	padding: 1%;
@@ -14,10 +15,14 @@ body{
 	width: 96%;
 	overflow: hidden;
 	top: 0;
-	background-color: grey;
+	background-color: #000080;
 	border-radius: 0px 0px 20px 20px;
+	color: white;
 }
 #content{
+	/*background-image: url("../img/a.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;*/
 	position: absolute;
 	overflow: hidden;
 	margin-top: 3%;
@@ -30,6 +35,7 @@ body{
 }
 #heading{
 	margin-left: 1%;
+	margin-top: 2%;
 }
 #heading,#search{
 	display: inline-block;
@@ -53,7 +59,7 @@ body{
 	height: 3em;
 	border-radius: 20px;
 	border: 2px solid transparent;
-	opacity: 0.6;
+	/*opacity: 0.6;*/
 	outline: none;
 	float: right;
 	margin-left: 0%;
@@ -66,17 +72,26 @@ body{
 	margin-top: 2%;
 	margin-right: 1%;
 }
-#heading h1,img{
+#heading h1,.svg-inline--fa.fa-w-18{
 	display: inline-block;
 }
-/*#heading h1{
-	opacity: 0.6;
-}*/
-#heading img{
+#heading h1{
+	padding: 0em;
+	margin: 0em;
+	color: white;
+}
+.svg-inline--fa.fa-w-18{
+	background-color: #000080;
+	color: white;
+	height: 2em;
+	width: 2em;
+	float: left;
+}
+/*#heading img{
 	width: 30px;
 	height: 30px;
 
-}
+}*/
 #heading:hover{
 	opacity: 1;
 }
@@ -108,7 +123,7 @@ body{
 }
 #header a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 #hleft{
 	float: left;
@@ -152,6 +167,7 @@ form{
 	margin-top: 1%;
 	/*margin-left: 2%*/;
 	width: 96%;
+	height: 3em;
 	border-radius: 10px;
 	border: 2px solid grey;
 }
@@ -167,33 +183,47 @@ form ul{
 form ul li{
 	display: inline-block;
 	padding: 1em;
-	opacity: 0.6;
+	width: 4em;
+	opacity: 1;
 	text-align: center;
 	vertical-align: text-top;
-	/*background-color: yellow;*/
+	text-align: center;
+	float: left;
 }
 form ul li:hover{
-	opacity: 1;
+	opacity: 0.8;
+	/*height: 1em;*/
+	background-color: black;
+	color: white;
+	text-align: center;
 }
 
 ul#nest{
 	display: none;
-	float: left;
+	/*float: left;*/
 	width: 2em;
 	margin:0em;
+	height: 5em;
 	/*background-color: blue;*/
-	margin-top: 3em;
+	margin-top: 1em;
+	padding: 0em;
+	/*overflow: inherit;*/
 }
 ul#nest li{
 	display: block;
-	width: 3em;
+	/*background-color: black;*/
+	width: 2em;
+	opacity: 1;
+	width: 100%;
 }
 
 form ul li:hover ul#nest{
 	display: block;
 }
-form ul li:hover ul#nest li{
-	background-color: grey;
+form ul li:hover ul#nest li:hover{
+	/*background-color: brown;*/
+	opacity: 0.6;
+	color: white;
 }
 
 form a{
@@ -206,7 +236,8 @@ form a{
 
 /*menu*/
 #menu{
-	/*width: 15em;*/
+	width: 100%;
+	overflow: hidden;
 }
 #menu div#lm,#menu div#rm{
 	display: inline-block;
@@ -214,7 +245,8 @@ form a{
 #menu div#lm{
 	width: 15%;
 	float: left;
-	height: 95vh;
+	padding: 1em;
+	height: 100vh;
 /*	background-color: grey;*/
 	opacity: 0.8;
 	border: 1px solid black;
@@ -223,10 +255,10 @@ form a{
 	opacity: 1;
 }
 #menu div#rm{
-	width: 78%;
+	width: 72%;
 	padding: 1em;
 	border: 2px solid red;
-	height: 90vh;
+	height: 100vh;
 }
 #menu hr{
 	height: 10px;
@@ -243,8 +275,11 @@ form a{
 #menu li{
 	list-style-type: none;
 	padding: 1em;
-	opacity: 0.6;
+	/*opacity: 0.6;*/
 	text-align: center;
+}
+#menu ul li:hover{
+	opacity: 0.6;
 }
 #menu ul li:hover a{
 	opacity: 1;
@@ -254,10 +289,23 @@ form a{
 
 
 #footer{
-	bottom: 0%;
-	margin-top: 100em;
-	height: 10em;
+	bottom: 0;
+	width: 73em;
+/*	height: 10em;*/
+margin-top: 100em;
 	background-color: black;
 	color: white;
 	padding: 3em;
 }
+#footer svg{
+	margin: 1em;
+	width: 2em;
+	height: 2em;
+}
+/*.svg-inline--fa.fa-w-18,.svg-inline--fa.fa-w-12,.svg-inline--fa.fa-w-18,.svg-inline--fa,.svg-inline--fa{
+	background-color: black;
+	color: green;
+	border: 1px solid white;
+	padding: 1em;
+	border-radius: 10px;
+}*/
